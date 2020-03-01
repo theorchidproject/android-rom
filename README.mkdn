@@ -1,37 +1,96 @@
-LineageOS
-===========
+<img src="https://raw.githubusercontent.com/AIMROM/manifest/N/logo.png">
 
-Getting started
+Aim Rom Android 10 (WIP) (DO NOT SYNC)
+========
+
+[![](https://github.com/AIMROM/manifest/raw/o/tg.png)](https://t.me/joinchat/AAAAAEGlvThIxMq8yPB1JA)
+
+Getting Started
+---------------
+To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository, use a command like this:
+
+Make directory for the repo binary
+
+  ```bash
+  $ mkdir ~/bin
+ ```
+
+Add directory for the repo binary to its path
+
+  ```bash
+  $ PATH=~/bin:$PATH
+  
+  ```
+  
+Downloading repo binary and placing it in the proper directory
+
+```bash
+  $ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+```
+
+Giving the repo binary the proper permissions
+
+```bash
+  $ chmod a+x ~/bin/repo
+```
+Creating directory for where the aimrom repo will be stored and synced
+
+```bash
+   $ mkdir aim
+   $ cd aim
+```
+Now init repo
+
+```bash
+    repo init -u git://github.com/AIMROM/manifest.git -b 10.0
+```
+
+Then to sync up:
+
+```bash
+    repo sync  -f --force-sync --no-clone-bundle --no-tags -j$(nproc --all)
+```
+Additionally, you can define the number of parallel download repo should do:
+
+```bash
+    repo sync -jX -f --force-sync --no-clone-bundle --no-tags
+```
+
+While X being the number of parallel downloads
+
+ Building The Project
+ ----------------------------------
+
+From root directory of AIM type following commands in terminal
+
+```bash
+	. build/envsetup.sh
+   
+    lunch aim_$devicecodename-$BuildType
+   
+	brunch $devicecodename
+```
+
+Example
 ---------------
 
-To get started with Android/LineageOS, you'll need to get
-familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
+If your device code name is "goldfish", then:
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+```bash
+	. build/envsetup.sh
+
+    lunch aim_goldfish-userdebug
+
+	brunch goldfish
 ```
-repo init -u git://github.com/LineageOS/android.git -b lineage-17.1
-```
-Then to sync up:
-```
-repo sync
-```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
 
+Obtaining the compiled zip
+----------------------------------------------
 
-Submitting patches
-------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
+From the root directory of AIM type following commands in the terminal
 
-Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
-
-To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
-
-
-Buildbot
---------
-
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Jenkins](https://jenkins.lineageos.org/).
-
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+```bash
+	cd $OUT/target/product/$devicecodename/$AIM*.zip
+```	
