@@ -50,7 +50,9 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="aim"/>
   <project path="packages/apps/freedomhub" name="packages_apps_freedomhub" remote="aim" />
   <!--project path="packages/apps/Updates" name="packages_apps_Updates" remote="aim" /-->
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="aim" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="aim" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="aim" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="aim" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="aim" />
 
