@@ -20,25 +20,25 @@
   </project>
 
   <!-- general repos -->
-  <project path="bionic" name="android_bionic" remote="aim" />
+  <project path="bionic" name="bionic" remote="aim" />
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="aim" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aim" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="aim" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="aim" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="aim" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="aim" />
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="aim" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="aim" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="aim" />
+  <project path="frameworks/av" name="frameworks_av" remote="aim" />
+  <project path="frameworks/base" name="frameworks_base" remote="aim" />
+  <project path="frameworks/native" name="frameworks_native" remote="aim" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="aim" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="aim" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="aim" />
 
   <!-- Hardware repos -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="aim" />
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="aim" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="aim" />
+  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="aim" />
 
   <!-- Lineage SDK -->
-  <project path="lineage-sdk" name="android_lineage-sdk" remote="aim" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="aim" />
 
   <!-- System repos -->
   <project path="system/core" name="system_core" remote="aim"/>
@@ -46,7 +46,7 @@
   <project path="system/vold" name="system_vold" remote="aim" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Settings" name="Aim_packages_apps_Settings" remote="aim" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aim" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="aim"/>
   <project path="packages/apps/freedomhub" name="packages_apps_freedomhub" remote="aim" />
   <!--project path="packages/apps/Updates" name="packages_apps_Updates" remote="aim" /-->
