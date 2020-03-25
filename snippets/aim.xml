@@ -35,6 +35,7 @@
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="aim" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="aim" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="aim" />
+  <project path="frameworks/opt/slimrecent" name="frameworks_opt_slimrecent" remote="aim" />
 
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="aim" />
