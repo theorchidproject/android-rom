@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/AIMROM/manifest/N/logo.png">
 
-Aim Rom Android 10 (WIP) (DO NOT SYNC)
+Aim Rom Android 10
 ========
 
 [![](https://github.com/AIMROM/manifest/raw/o/tg.png)](https://t.me/joinchat/AAAAAEGlvThIxMq8yPB1JA)
