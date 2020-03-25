@@ -25,6 +25,9 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aim" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="aim" />
 
+  <!-- External repos -->
+  <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="aim" />
+
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="aim" />
   <project path="frameworks/base" name="frameworks_base" remote="aim" />
