@@ -60,7 +60,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aim" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="aim"/>
   <project path="packages/apps/freedomhub" name="packages_apps_freedomhub" remote="aim" />
-  <!--project path="packages/apps/Updates" name="packages_apps_Updates" remote="aim" /-->
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="aim" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="aim" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="aim" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="aim" />
