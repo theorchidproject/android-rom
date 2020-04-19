@@ -71,5 +71,5 @@
 
   <!-- Vendor -->
   <project path="vendor/aim" name="vendor_aim" remote="aim" />
-
+  <project path="vendor/pixelgapps" name="kunalshah912/android_vendor_pixelgapps" remote="gitlab" revision="10.0" clone-depth="1" />
 </manifest>
