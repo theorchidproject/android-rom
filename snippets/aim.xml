@@ -66,6 +66,7 @@
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="aim" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="aim" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="aim" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="aim" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="aim" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="aim" />
 
