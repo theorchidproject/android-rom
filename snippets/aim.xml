@@ -72,5 +72,5 @@
 
   <!-- Vendor -->
   <project path="vendor/aim" name="vendor_aim" remote="aim" />
-  <project path="vendor/pixelgapps" name="ravipingat/pixelgapps" remote="gitlab" revision="10.0" clone-depth="1" />
+  <project path="vendor/pixelgapps" name="KudProject/vendor/pixelgapps" remote="gitlab" revision="q10x" clone-depth="1" />
 </manifest>
