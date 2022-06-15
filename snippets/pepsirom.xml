@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- LineageOS additions -->
+    <remote name="walkers"
+          fetch="https://github.com/theorchidproject"
+          revision="Walkers" />
+		  
+		  
+	<!-- PepsiWalkers -->
+	<project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="walkers" />
+	<project path="frameworks/base" name="android_frameworks_base-pepsi" groups="pdk-cw-fs,pdk-fs" remote="walkers" />
+	<project path="packages/apps/Settings" name="android_packages_apps_Settings-pepsi" groups="pdk-fs" remote="walkers" />
+	<project path="vendor/partner_gms" name="vendor_microg" remote="walkers" />
+
+	<!-- Vendor -->
+	<remove-project name="LineageOS/android_vendor_lineage" />
+	<project path="vendor/lineage" name="android_vendor_lineage" remote="walkers" />
+	
+	<!-- Removals -->
+	<remove-project name="LineageOS/ansible" />
+	<remove-project name="LineageOS/charter" />
+	<remove-project name="LineageOS/cm_crowdin" />
+	<remove-project name="LineageOS/contributors-cloud-generator" />
+	<remove-project name="LineageOS/cve_tracker" />
+	<remove-project name="LineageOS/hudson" />
+	<remove-project name="LineageOS/lineage_wiki" />
+	<remove-project name="LineageOS/mirror" />
+	<remove-project name="LineageOS/slackbot" />
+	<remove-project name="LineageOS/www" />
+	
+</manifest>
